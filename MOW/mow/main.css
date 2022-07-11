@@ -1,0 +1,113 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+.navbar-brand {
+     font-weight: thin;
+     font-size: 25px;
+}
+
+
+/* Start page styles
+-------------------------------------------------- */
+body {
+    padding-top: 5rem;
+    background-size: cover;
+    
+}
+
+body.start {
+    background-image: url("pic-1.jpg");
+    
+}
+
+#pinBox {
+    margin-top: 20%;
+	box-shadow: 0px 0px 31px #000000 !important;
+
+}
+
+#pinBox .alert {
+    margin-top: 10px;
+}
+
+
+
+/* Main application
+-------------------------------------------------- */
+
+#mapCard {
+    margin-bottom: 10px;
+}
+#intro {
+    text-align: center;
+}
+body.main {
+    background: linear-gradient(#bfbfbf, white);
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+body.main {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #343a40 !important;
+}
+#route {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.card-header1 {
+    font-weight: 200;
+    font-size: 20px;
+}
+.card-text {
+    font-weight: 150;
+    font-size: 15px;
+}
+.card-text1 {
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+button.card-button {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#000000;
+    background-color:#04D86C;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 80!important;
+}
+/*----------------About Page & FAQ Page -----------*/
+#infoBox {
+    width: 100%;
+    margin-bottom: 10%;
+}
+div.col-6 {
+    max-width: 100%
+    min-width: 100%;
+}
+    
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    font-size: normal;
+    font-weight: lighter;
+    margin-top: 1px;
+    margin-bottom: 1px;
